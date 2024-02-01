@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["crates/mahm-sys", "crates/mahm"]
+
+[workspace.dependencies]
+mahm-sys = { path = "crates/mahm-sys" }

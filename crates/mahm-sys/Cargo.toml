@@ -1,0 +1,9 @@
+[package]
+name = "mahm-sys"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+anyhow = "1.0.79"
+bindgen = "0.69.2"
+winreg = "0.52.0"
