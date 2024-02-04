@@ -5,8 +5,16 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.79"
+bitflags = "2.4.2"
+chrono = "0.4.33"
 log = "0.4.20"
 mahm-sys.workspace = true
 pretty_env_logger = "0.5.0"
-windows = { version = "0.52.0", features = ["Win32_Foundation", "Win32_System_Memory", "Win32_System", "Win32"] }
+thiserror = "1.0.56"
+windows = { version = "0.52.0", features = [
+  "Win32_Foundation",
+  "Win32_System_Memory",
+  "Win32_System",
+  "Win32",
+] }
 winreg = "0.52.0"

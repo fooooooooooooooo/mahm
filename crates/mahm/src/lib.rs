@@ -1,9 +1,11 @@
+
 use winreg::enums::HKEY_LOCAL_MACHINE;
 use winreg::RegKey;
 
 #[macro_use]
 extern crate log;
 
+pub mod monitor;
 pub mod windows;
 
 const HKLM: RegKey = RegKey::predef(HKEY_LOCAL_MACHINE);
